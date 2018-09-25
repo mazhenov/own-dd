@@ -1,5 +1,5 @@
 {
-    "name": "mazhenov/dd-like-laravel",
+    "name": "mazhenov/own-dd",
     "type": "library",
     "description": "Own DD() function same as laravel",
     "keywords": ["dd", "debug"],
