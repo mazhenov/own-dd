@@ -1,0 +1,22 @@
+{
+    "name": "mazhenov/dd-like-laravel",
+    "type": "library",
+    "description": "Own DD() function same as laravel",
+    "keywords": ["dd", "debug"],
+    "license": "MIT",
+    "authors": [
+		{
+		  "name": "Aibek Mazhenov",
+		  "email": "aibek.mazhenov@gmail.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"src/main.php"
+		]
+	},
+    "require": {
+        "php": ">=5.3.2"
+    },
+	"minimum-stability": "dev"
+}
