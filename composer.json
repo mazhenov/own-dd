@@ -4,6 +4,7 @@
     "description": "Own DD() function same as laravel",
     "keywords": ["dd", "debug"],
     "license": "MIT",
+	"version": "0.0.1",
     "authors": [
 		{
 		  "name": "Aibek Mazhenov",
