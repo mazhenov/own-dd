@@ -40,7 +40,7 @@ if (!function_exists('dd')) {
 				$str = $str.'<div style="padding:10px;border:1px solid #d0d0d0;border-radius:3px;">Type: Boolen<br/> Value: '.$item.'</div>';
 			}
 			else {
-				$str = $str.'<div style="padding:10px;border:1px solid #d0d0d0;border-radius:3px;">Type: '.gettype($item).'<br/> Value: '.$item.'</div>';
+				$str = $str.'<div style="padding:10px;border:1px solid #d0d0d0;border-radius:3px;">Type: '.gettype($item).'<br/> Value: '.htmlspecialchars($item).'</div>';
 			}
 			$data = $data.$str;
 		}
